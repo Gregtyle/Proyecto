@@ -1,0 +1,46 @@
+/* Estilos específicos para la página de reservas */
+
+.reservation-form {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #FF6F00;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.reservation-form h3 {
+    color: #FF6F00;
+    margin-top: 0;
+}
+
+.reservation-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.reservation-form input,
+.reservation-form select,
+.reservation-form textarea {
+    width: calc(100% - 22px); /* Ajustar el ancho para incluir padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.reservation-form button {
+    background-color: #FF6F00;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.reservation-form button:hover {
+    background-color: #e65c00; /* Color más oscuro de naranja en hover */
+}

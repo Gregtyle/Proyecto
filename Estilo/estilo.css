@@ -1,0 +1,85 @@
+/* Estilos comunes para todas las páginas */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garantiza que el body ocupe al menos el 100% de la altura de la ventana */
+}
+
+header {
+    text-align: center;
+    background-color: #FF6F00; /* Naranja oscuro */
+    color: #fff;
+    padding: 10px; /* Reducción del padding para el borde más fino */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #000; /* Línea negra en la parte inferior del header */
+}
+
+main {
+    margin-top: 60px; /* Espacio para el header fijo */
+    margin-left: 220px; /* Espacio para el aside */
+    padding: 20px;
+    flex: 1; /* Permite que el main ocupe el espacio restante */
+}
+
+aside {
+    position: fixed;
+    left: 0;
+    top: 105px; /* Espacio debajo del header */
+    width: 220px; /* Ajustado para un tamaño más manejable */
+    height: calc(100vh - 60px); /* Altura completa del viewport menos el header */
+    background-color: #F4F4F4; /* Gris claro */
+    padding: 10px;
+    border-right: 2px solid #FF6F00; /* Borde naranja */
+    box-shadow: 3px 0 6px rgba(0, 0, 0, 0.2);
+    overflow-y: auto; /* Permite scroll si el contenido es largo */
+}
+
+aside h2 {
+    color: #FF6F00; /* Naranja oscuro */
+    font-size: 1.5em;
+    margin: 0  20px 0; /* Espacio debajo del título */
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside ul li {
+    margin: 15px 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #000; /* Negro */
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+aside ul li a:hover {
+    background-color: #FF6F00; /* Naranja oscuro */
+    color: #fff; /* Blanco */
+}
+
+footer {
+    background-color: #F4F4F4; /* Gris claro */
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #FF6F00; /* Borde naranja */
+    width: 100%;
+    position: relative;
+    margin-top: auto; /* Empuja el footer al final del contenedor flex */
+}

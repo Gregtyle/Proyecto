@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Reservas - Valhala Glamping</title>
+    <link rel="stylesheet" href="Estilo/estilo.css">
+    <link rel="stylesheet" href="Estilo/buscar_reserva.css">
+</head>
+<body>
+
+    <header>
+        <h1>Valhala Glamping</h1>
+    </header>
+    
+    <aside>
+        <h2>Menú</h2>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="buscar_reserva.html">Buscar Reservas</a></li>
+            <li><a href="abonar.html">Abonar</a></li>
+        </ul>
+    </aside>
+    
+    <main>
+        <section class="search-reservation">
+            <h3>Buscar Reserva</h3>
+            <form>
+                <label for="reservation-id">ID de Reserva:</label>
+                <input type="text" id="reservation-id" name="reservation-id" placeholder="Introduce el ID de la reserva" required>
+    
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Introduce tu correo electrónico" required>
+    
+                <button type="submit">Buscar</button>
+            </form>
+    
+            <section class="reservation-details">
+                <h3>Detalles de la Reserva</h3>
+                <!-- Mostrar los detalles de la reserva aquí después de buscar -->
+                <p>No se encontraron reservas con los criterios proporcionados.</p>
+            </section>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Valhala Glamping. Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>

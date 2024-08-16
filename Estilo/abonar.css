@@ -1,0 +1,68 @@
+.payment {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #FF6F00;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment h3 {
+    color: #FF6F00;
+    margin-top: 0;
+    text-align: center;
+}
+
+.payment form {
+    margin-bottom: 20px;
+}
+
+.payment label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.payment input,
+.payment select,
+.payment button {
+    width: calc(100% - 22px); /* Ajustar el ancho para incluir padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.payment input::placeholder {
+    color: #888;
+}
+
+.payment button {
+    background-color: #FF6F00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.payment button:hover {
+    background-color: #e65c00; /* Color más oscuro de naranja en hover */
+}
+
+.payment-confirmation {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #FF6F00;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.payment-confirmation p {
+    color: #555;
+    margin: 0;
+    font-size: 14px;
+}

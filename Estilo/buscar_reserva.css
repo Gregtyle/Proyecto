@@ -1,0 +1,71 @@
+.search-reservation {
+    margin: 60px auto;
+    padding: 15px;
+    max-width: 500px;
+    border: 1px solid #FF6F00;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-reservation h3 {
+    color: #FF6F00;
+    margin-top: 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.search-reservation form {
+    margin-bottom: 15px;
+}
+
+.search-reservation label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.search-reservation input,
+.search-reservation button {
+    width: calc(100% - 20px); /* Ajustar el ancho para incluir padding */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-reservation input::placeholder {
+    color: #888;
+    font-size: 14px;
+}
+
+.search-reservation button {
+    background-color: #FF6F00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.search-reservation button:hover {
+    background-color: #e65c00; /* Color más oscuro de naranja en hover */
+}
+
+.reservation-details {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #FF6F00;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.reservation-details p {
+    color: #555;
+    margin: 0;
+    font-size: 14px;
+}
